@@ -1,0 +1,143 @@
+
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+header {
+	text-align: left;
+	margin: 0 40px;
+	padding: 0 20px;
+}
+
+#main {
+	background: #fff;
+	height: 600px;
+	border-bottom: thin dotted #EEAA7B;
+	padding-bottom: 10px;
+}
+
+header h1 {
+	font-size: 4em;
+	margin: 5px auto;
+	font-family: 'Lobster', cursive;
+	color: #F19F4D;
+}
+
+header h1 img, header p, header #maps {
+	color: #F19F4D;
+}
+
+#main_nav {
+	text-align: left;
+	padding-bottom: 3px;
+	border-bottom: thin dotted #EEAA7B;
+}
+
+#about, #hours, #contact, #menu, #catering {
+	padding: 0 20px;
+	border-bottom: thin dotted #EEAA7B;
+}
+
+header#main nav.social {
+	text-align: right;
+	position: absolute;
+	right: 55px;
+	top: 15px;
+}
+
+nav a, nav.social a {
+	color: #F19F4D;
+	text-decoration: none;
+}
+
+nav a:hover, header#main nav.social a:hover {
+	color: green;
+	text-decoration: none;
+}
+
+footer nav.social a:hover {
+	color: white;
+}
+
+#intro h2 {
+	font-size: 4em;
+	color: green;
+	margin-bottom: 20px;
+}
+
+#intro p {
+	text-align: center;
+}
+
+#intro_pic img {
+	width: 100%;
+	height: auto;
+}
+
+img#restaurant {
+	max-width: 95%;
+	width: 95%;
+	height: auto;
+	margin: 5%;
+	box-shadow: 0 3px 10px #333;
+}
+
+#about p {
+	font-size: 1.2em;
+	color: #F19F4D;
+}
+
+#menu {
+	color: #F19F4D;
+}
+
+#menu h2, #catering h2 {
+	font-family: 'Lobster', cursive;
+	border-bottom: thin dotted #EEAA7B;
+	color: green;
+}
+
+#about p{
+	padding-left: 30px;
+}
+
+#india {
+	height: 200px;
+	width: auto;
+}
+
+ul {
+	list-style: none;
+}
+
+#hours li {
+	color: #F19F4D;
+	font-size: 2em;
+}
+
+#days li {
+	font-family: 'Lobster', cursive;
+	text-align: right;
+	font-size: 2em;
+}
+
+.fa-clock-o {
+	color: green;
+	align-content: center;
+}
+
+dt {
+	color: green;
+}
+
+footer {
+	background-color: green;
+	margin: 0;
+}
+
+footer p{
+	text-align: center;
+	-webkit-margin-before: 5px;
+    -webkit-margin-after: 5px;
+	color: #F19F4D;
+}

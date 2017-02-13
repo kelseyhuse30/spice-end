@@ -3,27 +3,14 @@
 	font-family: 'Raleway', sans-serif;
 }
 
-header {
-	text-align: left;
-	margin: 0 40px;
-	padding: 0 20px;
-}
-
-#main {
-	background: #fff;
-	height: 600px;
-	border-bottom: thin dotted #EEAA7B;
-	padding-bottom: 10px;
-}
-
-header h1 {
+#main h1, #about h1, #menu h1, #catering h1, #hours h1, #contact h1{
 	font-size: 4em;
 	margin: 5px auto;
 	font-family: 'Lobster', cursive;
 	color: #F19F4D;
 }
 
-header h1 img, header p, header #maps {
+p, #maps, li {
 	color: #F19F4D;
 }
 
@@ -33,12 +20,12 @@ header h1 img, header p, header #maps {
 	border-bottom: thin dotted #EEAA7B;
 }
 
-#about, #hours, #contact, #menu, #catering {
-	padding: 0 20px;
+#description, #about, #hours, #contact, #menu, #catering {
+	padding: 20px, 20px;
 	border-bottom: thin dotted #EEAA7B;
 }
 
-header#main nav.social {
+#main nav.social {
 	text-align: right;
 	position: absolute;
 	right: 55px;
@@ -50,7 +37,7 @@ nav a, nav.social a {
 	text-decoration: none;
 }
 
-nav a:hover, header#main nav.social a:hover {
+nav a:hover, #main nav.social a:hover {
 	color: green;
 	text-decoration: none;
 }
@@ -110,20 +97,13 @@ ul {
 	list-style: none;
 }
 
-#hours li {
-	color: #F19F4D;
-	font-size: 2em;
-}
-
-#days li {
-	font-family: 'Lobster', cursive;
-	text-align: right;
-	font-size: 2em;
-}
-
 .fa-clock-o {
 	color: green;
 	align-content: center;
+}
+
+li {
+	font-size: 1.2em;
 }
 
 dt {
